@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 def CustomMeter():
     # layout the form
     layout = [[sg.Text('A custom progress meter')],
-              [sg.ProgressBar(1000, orientation='h',
+              [sg.ProgressBar(10000, orientation='h',
                               size=(20, 20), key='progress')],
               [sg.Cancel()]]
 
@@ -11,7 +11,7 @@ def CustomMeter():
     window = sg.Window('Custom Progress Meter', layout)
     progress_bar = window['progress']
     # loop that would normally do something useful
-    for i in range(1000):
+    for i in range(10000):
         # check to see if the cancel button was clicked and exit loop if clicked
         event, values = window.read(timeout=0, timeout_key='timeout')
         if event == 'Cancel' or event == None:

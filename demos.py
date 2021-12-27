@@ -1,42 +1,36 @@
 import PySimpleGUI as sg
 
-"""
-    Demo of autosize of Text Element
-    Beginning in version 4.46.0 the Text element will fully autosize if:
-        * auto_size_text is True (default)
-        * No size is supplied or (None, None) is supplied
-    "Fully autosize" means that both the element and the window will grow/shrink 
-        as the contents of the Text element changes.
-    Prior versions autosized in 1 direction, either horizontally or vertically
-        * Set size = (None, int) to autosize horizontally
-        * Set size = (int, None) to autosize vertically
-    By default autosize is enabled, but setting a size parameter will disable unless None is specified
-        in one of the directions.
+'''
+    App that shows "how fonts work in PySimpleGUI".
+'''
 
-    Copyright 2021 PySimpleGUI
-"""
+layout = [[sg.Text('This is my sample text', size=(20, 1), key='-text-')],
+          [sg.CB('Bold', key='-bold-', change_submits=True),
+           sg.CB('Italics', key='-italics-', change_submits=True),
+           sg.CB('Underline', key='-underline-', change_submits=True)],
+          [sg.Slider((6, 50), default_value=12, size=(14, 20),
+                     orientation='h', key='-slider-', change_submits=True),
+           sg.Text('Font size')],
+          [sg.Text('Font string = '), sg.Text('', size=(25, 1), key='-fontstring-')],
+          [sg.Button('Exit')]]
 
-layout = [[sg.Text('Starting string', size=(None, None), k='-T-'), sg.Text('Also on first row')],
-          # THIS is the newly added combination. Note (None, None) is default and not really needed
-          [sg.Text('None, 1', size=(None, 1), k='-T1-'), sg.Text('rest of the row')],
-          [sg.Text('30, None', size=(30, None), k='-T2-'), sg.Text('rest of the row')],
-          [sg.Text('Explicit size', size=(15, 1)), sg.Text('Second Text Element on second row')],
-          [sg.Button('Go'), sg.B('Clear'), sg.Button('Exit')]]
+window = sg.Window('Font string builder', layout)
 
-window = sg.Window('Autosize Text', layout)
-
-while True:
+text_elem = window['-text-']
+while True:     # Event Loop
     event, values = window.read()
-    print(event, values)
-    if event == sg.WIN_CLOSED or event == 'Exit':
+    if event in (sg.WIN_CLOSED, 'Exit'):
         break
-    if event == 'Go':
-        window['-T-'].update('This is the new string\nThat is multiple\nlines')
-        window['-T1-'].update('This is the new string\nThat is multiple\nlines')
-        window['-T2-'].update('This is the new string\nThat is multiple\nlines')
-    elif event == 'Clear':
-        window['-T-'].update('')
-        window['-T1-'].update('')
-        window['-T2-'].update('')
+    font_string = 'Helvitica '
+    font_string += str(int(values['-slider-']))
+    if values['-bold-']:
+        font_string += ' bold'
+    if values['-italics-']:
+        font_string += ' italic'
+    if values['-underline-']:
+        font_string += ' underline'
+    text_elem.update(font=font_string)
+    window['-fontstring-'].update('"'+font_string+'"')
+    print(event, values)
 
 window.close()
