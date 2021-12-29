@@ -1,5 +1,6 @@
 import PySimpleGUI as sg
 
+
 def CustomMeter():
     # layout the form
     layout = [[sg.Text('A custom progress meter')],

@@ -1,4 +1,4 @@
-from lottery.windows import main_window
+from lottery.windows import main_window, welcome_window
 from lottery.utils import gift_parser, generate_gift_buttons, list_gifts
 from lottery.params import GIFTS_INFO, GUYS
 from PySimpleGUI import WIN_CLOSED, theme
@@ -12,6 +12,7 @@ PROCESS_STACK = []
 
 if __name__ == '__main__':
     theme('Light Purple')
+    welcome_window()
     window = main_window(generate_gift_buttons(GIFTS_D))
     while True:
         for tab in GIFTS_NUM:

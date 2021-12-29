@@ -3,11 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="3c9ea9b0-f3a6-4841-a826-91bee9748e87" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/demos.py" beforeDir="false" afterPath="$PROJECT_DIR$/demos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lottery/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lottery/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/params.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lottery/windows.py" beforeDir="false" afterPath="$PROJECT_DIR$/lottery/windows.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lottery_test.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/processbar.py" beforeDir="false" afterPath="$PROJECT_DIR$/processbar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_lottery.exe" beforeDir="false" afterPath="$PROJECT_DIR$/run_lottery.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_lottery.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_lottery.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,31 +19,34 @@
     <SUITE FILE_PATH="coverage/TFLottery$utils.coverage" NAME="utils Coverage Results" MODIFIED="1640332359654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lottery" />
     <SUITE FILE_PATH="coverage/TFLottery$windows.coverage" NAME="windows Coverage Results" MODIFIED="1640334568930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lottery" />
     <SUITE FILE_PATH="coverage/TFLottery$processbar.coverage" NAME="processbar Coverage Results" MODIFIED="1640598533097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TFLottery$run_lottery.coverage" NAME="run_lottery Coverage Results" MODIFIED="1640597151424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TFLottery$run_lottery.coverage" NAME="run_lottery Coverage Results" MODIFIED="1640745573562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TFLottery$lottery_test.coverage" NAME="lottery_test Coverage Results" MODIFIED="1640332877966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TFLottery$demos.coverage" NAME="demos Coverage Results" MODIFIED="1640595010943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TFLottery$demos.coverage" NAME="demos Coverage Results" MODIFIED="1640677253670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TFLottery$getexe.coverage" NAME="getexe Coverage Results" MODIFIED="1640583655196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TFLottery$allelement.coverage" NAME="allelement Coverage Results" MODIFIED="1640598451845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="run_lottery.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="run_lottery.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run_lottery.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+            <state relative-caret-position="242">
+              <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#55#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="windows.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="windows.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lottery/windows.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="-208">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#78#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,8 +54,8 @@
       <file leaf-file-name="params.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lottery/params.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-315">
-              <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+            <state relative-caret-position="1667">
+              <caret line="127" column="36" lean-forward="true" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -62,8 +63,8 @@
       <file leaf-file-name="processbar.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/processbar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="330">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -71,8 +72,8 @@
       <file leaf-file-name="utils.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lottery/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="46" column="68" lean-forward="true" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+            <state relative-caret-position="-343">
+              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -83,8 +84,8 @@
       <file leaf-file-name="lottery_test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lottery_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="35" column="51" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="332">
+              <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="37" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -96,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/getexe.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="795">
-              <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -107,8 +108,8 @@
       <file leaf-file-name="allelement.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/allelement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="117" column="42" lean-forward="true" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
+            <state relative-caret-position="-45">
+              <caret line="96" column="60" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -116,8 +117,8 @@
       <file leaf-file-name="demos.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="137">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -141,12 +142,12 @@
         <option value="$PROJECT_DIR$/buttons.py" />
         <option value="$PROJECT_DIR$/getexe.py" />
         <option value="$PROJECT_DIR$/lottery_test.py" />
-        <option value="$PROJECT_DIR$/lottery/params.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/demos.py" />
         <option value="$PROJECT_DIR$/lottery/utils.py" />
+        <option value="$PROJECT_DIR$/demos.py" />
         <option value="$PROJECT_DIR$/run_lottery.py" />
         <option value="$PROJECT_DIR$/processbar.py" />
+        <option value="$PROJECT_DIR$/lottery/params.py" />
         <option value="$PROJECT_DIR$/lottery/windows.py" />
       </list>
     </option>
@@ -180,6 +181,16 @@
               <item name="TFLottery" type="b2602c69:ProjectViewProjectNode" />
               <item name="TFLottery" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TFLottery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFLottery" type="462c0819:PsiDirectoryNode" />
+              <item name="lottery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TFLottery" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFLottery" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -204,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.processbar">
+  <component name="RunManager" selected="Python.run_lottery">
     <configuration name="allelement" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="TFLottery" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,10 +320,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.processbar" />
-        <item itemvalue="Python.allelement" />
         <item itemvalue="Python.run_lottery" />
         <item itemvalue="Python.demos" />
+        <item itemvalue="Python.processbar" />
+        <item itemvalue="Python.allelement" />
         <item itemvalue="Python.getexe" />
       </list>
     </recent_temporary>
@@ -332,15 +343,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="413" y="22" width="1402" height="1000" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329849" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329849" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -385,17 +397,20 @@
     <entry file="file://$PROJECT_DIR$/src/icon.ico">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lottery/params.py">
+    <entry file="file://$PROJECT_DIR$/lottery/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
-          <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state relative-caret-position="-343">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getexe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
-          <caret line="53" column="19" lean-forward="true" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
+          <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -404,59 +419,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lottery_test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="35" column="51" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="51" />
+        <state relative-caret-position="332">
+          <caret line="33" selection-start-line="33" selection-end-line="34" selection-end-column="37" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lottery/utils.py">
+    <entry file="file://$PROJECT_DIR$/allelement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="46" column="68" lean-forward="true" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        <state relative-caret-position="-45">
+          <caret line="96" column="60" selection-start-line="96" selection-start-column="31" selection-end-line="96" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demos.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/processbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lottery/params.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1667">
+          <caret line="127" column="36" lean-forward="true" selection-start-line="127" selection-start-column="36" selection-end-line="127" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lottery/windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run_lottery.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+        <state relative-caret-position="242">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demos.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="24" lean-forward="true" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/allelement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="117" column="42" lean-forward="true" selection-start-line="117" selection-start-column="42" selection-end-line="117" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/processbar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lottery/windows.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
